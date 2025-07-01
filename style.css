@@ -1,0 +1,328 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+*{
+    font-family: arial;
+}
+
+
+div.content{
+   height: 700px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.navbar{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+div.navbarjoinnavbar{
+    background-color: black;
+    
+}
+div.navbar a{
+    
+   color:white;
+   margin:20px;
+    
+}
+div.navbar a.join{
+    padding:10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:white;
+}
+div.details{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+
+}
+div.details button{
+   padding:10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:darkturquoise; 
+}
+div.upcoming h1{
+    text-align: center;
+    
+}
+div.games{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.game{
+    text-align: center;
+}
+div.game div.img1{
+    width: 120px;
+    height:120px;
+    border-radius: 120px;
+    background-image: url(sols%20rng.jpg);
+        background-size:cover;
+    background-position: center;
+}
+div.game div.img2{ width: 120px;
+    height:120px;
+    border-radius: 120px;
+    background-image: url(fisch.jpg);
+        background-size:cover;
+    background-position: center;
+}
+div.game div.img3{ width: 120px;
+    height:120px;
+    border-radius: 120px;
+    background-image: url(blox%20fruits.jpg);
+        background-size:cover;
+    background-position: center;
+}
+div.game div.img4{ width: 120px;
+    height:120px;
+    border-radius: 120px;
+    background-image: url(azure%20latch.jpg);
+        background-size:cover;
+    background-position: center;
+}
+div.maingame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    padding: 50px;
+    border-radius: 20px;
+    line-height: 23px;
+    margin-top:50px;
+}
+div.gamedetails{
+    width: 50%;
+    
+    
+}
+div.maingame button{
+    padding:10px;
+    border-radius: 8px;
+    background-color: aqua;
+    color:darkblue;
+    border: none;
+    
+}
+
+div.maingame img{
+    margin-right: -100px;
+    border-radius: 20px;
+    width:50%;
+}
+div.postscontent h1,div.postscontent p{
+    text-align: center;
+    
+}
+div.posts{ display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.post{
+    margin:25px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 30%;
+}
+div.post p{
+    font-size: 15px;  
+    text-align: left;
+}
+div.post p, div.post h5{
+    
+    display: inline-block;
+    
+}
+
+
+div.post h3, div.post p, div.post h5{
+    
+    padding-right:10px;
+    padding-left: 10px;
+    
+}
+div.post div.img7{
+    background-image: url('Gravity4.webp');
+   height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+div.post div.img5{
+    background-image: url(lorenzo.webp);
+   height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+div.post div.img6{
+    background-image: url(sols%20rng.jpg);
+   height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+div.testis{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}   
+div.test h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+div.testi{
+    margin:20px;
+    text-align-last: center;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div.testi div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-image: url(boy.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+div.pricing h2{
+text-align: center;
+}    
+div.prices{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin:auto;
+    text-align: center;
+}
+div.price{
+    width: 30%;
+    background-color: darkcyan;
+    color: white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+div.price button{padding:10px;
+    border-radius: 8px;
+    background-color:transparent;
+    color:white;
+    border: 1px solid white;   
+}
+div.planprice{
+   background-color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.planpice h3{
+    margin: 0px;
+    
+}
+div.joinform{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50p;
+}
+div.joinform div.image, div.joinform div.form{
+    width: 35%; 
+}
+div.joinform div.form{
+    width: 65%;
+    
+}
+div.joinform div.image{
+    background-image: url(fantasy1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+form imput, form button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+form{
+   display: flex;
+    flex-direction: column;
+    width: 60%;
+        margin:auto;
+    padding-top: 100px;
+}
+form button{
+    background-color: blue;
+    color: white;
+    
+}
+div.footer{
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    padding:10px;
+    margin-top:50px;
+}
+ul{
+display:none;
+ background-color: white;
+    position: fixed;
+    top: 70px;
+    right:230px;    
+}
+.left{
+    position: fixed;
+    top: 350px;
+    left: 50px;
+}
+.right{
+    
+position: fixed;
+     top: 350px;
+    right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
